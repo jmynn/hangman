@@ -1,0 +1,11 @@
+.gameArea{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    & > *:not(:last-child)   {
+        margin: 0 0 1rem 0;
+    }
+    input{
+        padding: .5rem;
+    }
+}
